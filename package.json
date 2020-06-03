@@ -1,0 +1,21 @@
+{
+  "name": "test-auto-update",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+  "type" : "git",
+  "url" : "https://github.com/gauravggg21/electron-autoupdate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^9.0.2",
+    "electron-builder": "^22.7.0",
+    "electron-updater": "^4.3.1"
+  }
+}
