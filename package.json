@@ -5,11 +5,13 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder build --mac --win --publish never",
+"deploy": "electron-builder build --mac --win --publish always"
   },
   "repository": {
-  "type" : "git",
-  "url" : "https://github.com/gauravggg21/electron-autoupdate.git"
+    "type": "git",
+    "url": "https://github.com/gauravggg21/electron-autoupdate.git"
   },
   "author": "",
   "license": "ISC",
